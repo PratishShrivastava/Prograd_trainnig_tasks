@@ -8,7 +8,10 @@ import java.util.Scanner;
 
 public class Q24_IfElseStatement{
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("Write a Java program for Company Insurance Policy. A company insure its driver under the following conditions\n" +
+                "If driver is married\n" +
+                "If driver is unmarried male and age above 30\n" +
+                "If driver is unmarried female and age above 25\n");
 
         Scanner Sc = new Scanner(System.in);
 
@@ -29,10 +32,10 @@ public class Q24_IfElseStatement{
             }else if ((Gender == 'f' || Gender == 'F') && (Age>=25)){
                 System.out.print("Congratulations! You are eligible for Company Insurance Policy.");
             }else{
-                System.out.print("You are NOT eligible for Company Insurance Policy.");
+                System.out.print("Sorry, You are NOT eligible for Company Insurance Policy.");
             }
         }else{
-            System.out.print("You are NOT eligible for Company Insurance Policy.");
+            System.out.print("Sorry, You are NOT eligible for Company Insurance Policy.");
         }
 
     }
