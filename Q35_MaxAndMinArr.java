@@ -31,9 +31,5 @@ public class Q35_MaxAndMinArr {
         System.out.println("Minimum: " + min);
         System.out.println("Maximum: " + max);
 
-
-
-
-
     }
 }
